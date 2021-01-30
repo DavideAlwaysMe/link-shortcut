@@ -8,17 +8,7 @@ import pkg_resources
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 
-""" TODO
-- tradurre tutto in inglese
-- favicon delle app google fatto
-- risolvere eventuali errori e notificarli: url non valido fatto 
-- chiudere quando il lanciatore è creato fatto
-- inserire opzione rimuovi
-- impostare un'icona
-- informarsi su come rendere installabile 
-- informarsi sulle licenze fatto
-- mettere su github fatto
-"""
+
 
 #xml da importare sottoforma di stringa
 xml = """<?xml version="1.0" encoding="UTF-8"?>
