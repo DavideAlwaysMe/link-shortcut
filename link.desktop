@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1
+Type=Application
+Name=link
+Exec=link.py
+Icon=icona.png
+Categories=Utility;
+Terminal=false
+StartupNotify=true
