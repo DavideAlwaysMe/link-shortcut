@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.36.0 -->
+<interface>
+  <requires lib="gtk+" version="3.22"/>
+  <object class="GtkApplicationWindow" id="window">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">Url launcher</property>
+    <property name="icon">../Immagini/produzioni/icona.png</property>
+    <signal name="destroy" handler="on_destroy" swapped="no"/>
+    <child>
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkEntry" id="url">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="margin_start">20</property>
+            <property name="margin_end">20</property>
+            <property name="margin_top">25</property>
+            <property name="margin_bottom">25</property>
+            <property name="placeholder_text" translatable="yes">Inserire qui l'url del sito</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="name">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="margin_start">20</property>
+            <property name="margin_end">20</property>
+            <property name="margin_bottom">25</property>
+            <property name="placeholder_text" translatable="yes">Inserire il nome del lanciatore</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkCheckButton" id="checkdesktop">
+            <property name="label" translatable="yes">Salvare il lanciatore sulla Scrivania</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="margin_start">20</property>
+            <property name="draw_indicator">True</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkCheckButton" id="checkapplist">
+            <property name="label" translatable="yes">Salvare il lanciatore tra le applicazioni</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">False</property>
+            <property name="margin_start">20</property>
+            <property name="draw_indicator">True</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkToggleButton" id="button">
+            <property name="label" translatable="yes">Crea lanciatore</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="halign">center</property>
+            <property name="margin_bottom">10</property>
+            <signal name="clicked" handler="on_button_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">4</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+  </object>
+</interface>
