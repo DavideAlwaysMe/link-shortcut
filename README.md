@@ -11,5 +11,5 @@ $ sudo python3 setup.py install
 ## Installation by .deb
 ```
 $ git clone https://github.com/DavideAlwaysMe/link-shortcut/blob/main/python3-link_0.1-1_all.deb
-$ sudo dpkg -i package_file.deb
+$ sudo dpkg -i python3-link_0.1-1_all.deb
 ```
