@@ -5,7 +5,7 @@ Easily create a web browser launcher from a custom url in linux.
 ```
 $ git clone https://github.com/DavideAlwaysMe/link-shortcut 
 $ cd link-shortcut
-$ sudo apt-get install -y python-setuptools
+$ sudo apt-get install -y python3-setuptools
 $ sudo python3 setup.py install
 ```
 ## Installation by .deb
